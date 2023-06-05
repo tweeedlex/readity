@@ -1,0 +1,103 @@
+.header {
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+.nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  position: absolute;
+  left: calc(50% - 82px);
+}
+
+.logo a {
+  font-family: "Love Light";
+  font-size: 60px;
+}
+
+.profile, .profile img {
+  width: 40px;
+  height: 40px;
+}
+
+.popUp {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  width: 100%;
+}
+
+.popUpContainer {
+  width: 1320px;
+  height: 100%;
+  position: relative;
+}
+
+.popUpContent,
+.popUpContentUnlogined {
+  min-width: 320px;
+  background: linear-gradient(189.11deg, #2E486F 6.91%, #3C5C8B 61.34%, #304058 119.78%);
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  z-index: 5;
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.popUpContent {
+  text-align: right;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.popUpContent * {
+  font-size: 20px;
+}
+
+.popUpContentUnlogined {
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  height: 180px;
+}
+
+.popUpContentUnlogined * {
+  font-size: 24px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.login {
+  cursor: pointer;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  gap: 8px;
+  height: 24px;
+}

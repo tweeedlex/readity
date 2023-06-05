@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  color: #fff;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+/* =============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(189.11deg, #2E486F 6.91%, #3C5C8B 61.34%, #304058 119.78%);
+  overflow-y: scroll;
+}
+
+.main {
+  flex: 1 1 auto;
+  padding: 20px 0 0 0;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container-1000 {
+  max-width: 1040px;
+}
+
+input,
+button,
+select {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.action {
+  background-color: #ffffff;
+  border: 1px solid #fff;
+  border-radius: 66px;
+  color: #2e4363;
+  font-weight: 600;
+  padding: 8px 45px;
+
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.action:hover {
+  background-color: #2e4363;
+  color: #ffffff;
+}
+
+.action:active {
+  background-color: #192536;
+  color: #ffffff;
+}

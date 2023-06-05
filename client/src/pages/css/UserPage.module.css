@@ -1,0 +1,62 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.mainStats {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 40px 0 0 0;
+}
+
+.block {
+    background-color: #3C5C8B;
+    padding: 10px;
+    border-radius: 30px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 33.33%;
+}
+
+.block p {
+    text-align: center;
+}
+
+.cardHeading {
+    font-weight: 600;
+}
+
+.score {
+    font-size: 36px;
+    font-weight: 700;
+}

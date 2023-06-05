@@ -1,0 +1,16 @@
+.modal {
+    width: 1280px;
+}
+
+.text {
+    cursor: pointer;
+    line-height: 120%;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: space-between;
+    height: 60px;
+}

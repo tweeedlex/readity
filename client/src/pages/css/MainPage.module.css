@@ -1,0 +1,70 @@
+.input,
+.button,
+.select
+{
+  background: #2e4363;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 66px;
+  padding: 8px 20px;
+}
+
+.select {
+  width: 310px;
+}
+
+.input,
+.button {
+  width: 330px;
+}
+
+.input::placeholder {
+  color: #d7d7d7;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.theme {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.font {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.sentences {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sentences input {
+  width: 100px;
+}
+
+.select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.selectWrapper {
+  position: relative;
+}
+
+.selectWrapper::after {
+  content: url("../../images/select.png");
+  position: absolute;
+  right: 20px;
+  top: 12px;
+}
